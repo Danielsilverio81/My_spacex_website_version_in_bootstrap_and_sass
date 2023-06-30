@@ -1,0 +1,116 @@
+@use './../forwardUse' as f;
+* {@include f.reset(0, 0, border-box)}
+
+body, html {
+  transition-duration: 0.7s;
+  width: 100%;
+  min-height: 100vh;
+  color: f.$fontColor;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  @include f.flexProperty;
+}
+
+
+.navbar-toggler {
+      border: 1px solid f.$fontColor;
+      background-color: brown;
+
+      &:active {
+        border: 3px solid f.$fontColor;
+      }
+}
+
+  #navbarNavAltMarkup {
+    padding: 0 10px;
+  }
+
+.backg-01 {
+  @include f.contentBox(100%, 628px, url(./../assets/images/home/01.jpg), cover, no-repeat);
+  background-position: center;
+}
+
+.backg-02 {
+  @include f.contentBox(100%, 628px, url(./../assets/images/home/03.jpg), cover, no-repeat);
+  background-position: center;
+}
+
+.backg-03 {
+  @include f.contentBox(100%, 628px, url(./../assets/images/home/02.gif), cover, no-repeat);
+  background-position: center;
+}
+
+.backg-04 {
+  @include f.contentBox(100%, 628px, url(./../assets/images/home/04.jpg), cover, no-repeat);
+  background-position: center;
+}
+
+.container-content {
+    .container-move {margin-right: 104px;}
+    
+    .navbar {
+      .logo {
+        padding-right: 22px;
+        width: 265px;
+        height: 39px;
+      }
+      .nav-link {
+        color: f.$fontColor;
+        font-size: 0.75em;
+        font-weight: bold;
+      }
+    }
+    .arrowDown {
+      width: 100px;
+    }
+}
+
+.information-top {
+  padding-top: 204px;
+
+  p {
+    width: 100%;
+    max-width: 620px;
+  }
+  .btn-knowMore {
+    font-size: 1em;
+    padding: 15px 35px;
+    border-radius: 5px;
+    border: 3px solid white;
+  }
+}
+
+.information-top {
+  .home-page {
+    margin-left: 70px;  
+  }
+}
+
+.btn-knowMore {
+  &:hover {
+    background-color: f.$hoverLinks;
+  }
+}
+
+.btn-knowMore {
+  &:active {
+    box-shadow: 3px 3px 3px darkgray;
+  }
+}
+
+footer {
+  background-color: black;
+  height: 75px;
+  .container-flex {
+    @include f.dFlex(flex, center, center);
+    gap: 14px;
+
+    p {
+      margin-top: 16px;
+      color: f.$copyrightColor;
+    }
+  }
+}
