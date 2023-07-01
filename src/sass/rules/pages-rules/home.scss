@@ -17,16 +17,13 @@ main {
 
 .navbar-toggler {
       border: 1px solid f.$fontColor;
-      background-color: brown;
+      background-color: rgb(167, 155, 155);
+      padding: 2px;
 
       &:active {
         border: 3px solid f.$fontColor;
       }
 }
-
-  #navbarNavAltMarkup {
-    padding: 0 10px;
-  }
 
 .backg-01 {
   @include f.contentBox(100%, 628px, url(./../assets/images/home/01.jpg), cover, no-repeat);
@@ -64,12 +61,12 @@ main {
       }
     }
     .arrowDown {
-      width: 100px;
+      max-width: 100px;
     }
 }
 
 .information-top {
-  padding-top: 204px;
+  padding-top: 202px;
 
   p {
     width: 100%;
