@@ -26,22 +26,22 @@ main {
 }
 
 .backg-01 {
-  @include f.contentBox(100%, 628px, url(./../assets/images/home/01.jpg), cover, no-repeat);
+  @include f.contentBox(100%, 100vh, url(./../assets/images/home/01.jpg), cover, no-repeat);
   background-position: center;
 }
 
 .backg-02 {
-  @include f.contentBox(100%, 628px, url(./../assets/images/home/03.jpg), cover, no-repeat);
+  @include f.contentBox(100%, 100vh, url(./../assets/images/home/03.jpg), cover, no-repeat);
   background-position: center;
 }
 
 .backg-03 {
-  @include f.contentBox(100%, 628px, url(./../assets/images/home/02.gif), cover, no-repeat);
+  @include f.contentBox(100%, 100vh, url(./../assets/images/home/02.gif), cover, no-repeat);
   background-position: center;
 }
 
 .backg-04 {
-  @include f.contentBox(100%, 628px, url(./../assets/images/home/04.jpg), cover, no-repeat);
+  @include f.contentBox(100%, 100vh, url(./../assets/images/home/04.jpg), cover, no-repeat);
   background-position: center;
 }
 

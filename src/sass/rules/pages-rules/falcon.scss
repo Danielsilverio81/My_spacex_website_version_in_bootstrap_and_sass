@@ -1,0 +1,143 @@
+@use './../forwardUse' as f;
+
+
+  .falcon-page {
+    p {
+      margin:2px auto;
+    }
+  }
+
+td {
+  background-color: transparent
+}
+
+.bg-falcon01 {
+  @include f.contentBox(100%, 100vh, url(./../assets/images/falcon9/01.jpg), cover, no-repeat);
+  background-position: center;
+}
+
+.bg-falcon02 {
+  @include f.contentBox(100%, 100vh, url(./../assets/images/falcon9/02.jpg), cover, no-repeat);
+  background-position: center;
+}
+
+.bg-falcon03 {
+  @include f.contentBox(100%, 100vh, url(./../assets/images/falcon9/08.jpg), cover, no-repeat);
+  background-position: center;
+}
+
+#width-container {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 14%;
+  padding-top: 15%;
+
+  table {
+    width: 100%;
+    max-width: 480px;
+
+    td {
+      color: f.$fontColor;
+      background-color: transparent
+    }
+  }
+}
+
+  .container-content {
+
+    .content-move {
+      strong {
+        color: f.$copyrightColor;
+      }
+      text-shadow: 2px 2px 2px f.$copyrightColor;
+      padding-left: 90px;
+    }
+  }
+
+main {
+  section {
+    .falcon-details {
+      background-color: f.$bgDetails;
+      height: 210px;
+      font-weight: bold;
+  
+      .numb {
+        font-size: 5.2em;
+      }
+    }
+  
+    .desc {
+      font-size: 1.3em;
+      line-height: 2.4em;
+      padding-top: 110px;
+      padding-right: 490px;
+      padding-left: 50px;
+    }
+  }
+  
+    .falcon-carousel {
+      width: 100%;
+  
+      #width-container {
+        
+        .text {
+          margin-top: 5px;
+          text-shadow: 2px 2px 2px black;
+        }
+  
+        .text-aletas {
+          font-size: 1.2em;
+        }
+      }
+  
+      .container00 {
+        @include f.contentBox(100%, 100vh, url(./../assets/images/falcon9/03.jpg), cover, no-repeat);
+        background-position: center;
+      }
+  
+      .container01 {
+        @include f.contentBox(100%, 100vh, url(./../assets/images/falcon9/04.jpg), cover, no-repeat);
+        background-position: center;
+      }
+  
+      .container02 {
+        @include f.contentBox(100%, 100vh, url(./../assets/images/falcon9/05.jpg), cover, no-repeat);
+        background-position: center;
+      }
+  
+      .container03 {
+        @include f.contentBox(100%, 100vh, url(./../assets/images/falcon9/06.jpg), cover, no-repeat);
+        background-position: center;
+      }
+  
+      .container04 {
+        @include f.contentBox(100%, 100vh, url(./../assets/images/falcon9/07.jpg), cover, no-repeat);
+        background-position: center;
+      }
+    }
+    .second-falcon-carousel {
+      img {
+        height: 625px;
+      }
+
+      .carousel-text {
+        background-color: black;
+        text-align: center;
+        margin-top: 0;
+        margin-bottom: 1rem;
+      }
+    }
+}
+
+.btns-download-desc {
+  height: 627px;
+  background-color: black;
+  padding-top: 240px;
+
+  button {
+    &:active {
+      box-shadow: 3px 3px 3px darkgray;
+    }
+  }
+}
+
