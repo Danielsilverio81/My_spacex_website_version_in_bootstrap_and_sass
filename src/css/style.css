@@ -358,4 +358,63 @@ main .container-content-SpaceF .btn-knowMore:hover {
   background-color: #FFFFFF;
 }
 
+@media (max-width: 600px) {
+  .information-top .home-page {
+    margin-left: 5px;
+  }
+}
+@media (max-width: 795px) {
+  .container-content .content-move {
+    padding-left: 30px;
+  }
+  /*responsiveness falcon page*/
+  main section .desc {
+    padding-right: 20px;
+    padding-left: 10px;
+  }
+  main section .falcon-details .numb {
+    font-size: 2em;
+  }
+  #width-container {
+    margin-left: 2.6%;
+  }
+}
+@media (max-width: 560px) {
+  td {
+    font-size: 0.9em;
+  }
+  main section .desc {
+    line-height: 1.4em;
+    font-size: 0.9em;
+  }
+  #width-container table {
+    max-width: 360px;
+  }
+}
+/*responsiveness HumanSpaceF page*/
+@media (max-width: 1060px) {
+  .container-spaceF00 {
+    height: 350px;
+  }
+  .container-spaceF01 .container-content-SpaceF, .container-spaceF02 .container-content-SpaceF, .container-spaceF03 .container-content-SpaceF,
+  .container-spaceF04 .container-content-SpaceF {
+    margin-left: 20px;
+  }
+}
+@media (max-width: 940px) {
+  .arrowD-container {
+    display: none;
+  }
+  .container-spaceF00 .space-flight h1 {
+    margin-top: 10px;
+    font-size: 2em;
+  }
+  .container-spaceF00 .space-flight p {
+    margin: 2px;
+  }
+  main .text-span p {
+    font-size: 1em;
+  }
+}
+
 /*# sourceMappingURL=style.css.map */
