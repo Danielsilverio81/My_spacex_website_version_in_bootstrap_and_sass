@@ -120,6 +120,7 @@ footer .container-flex p {
   color: #555252;
 }
 
+/*style falcon page*/
 .falcon-page p {
   margin: 2px auto;
 }
@@ -263,6 +264,7 @@ main .second-falcon-carousel .carousel-text {
   box-shadow: 3px 3px 3px darkgray;
 }
 
+/*style Human Space F page*/
 .page-spaceFlight-shadowNav a:hover {
   text-shadow: 2px 2px 2px #9b9999;
 }
