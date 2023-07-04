@@ -1,6 +1,5 @@
 @use './../forwardUse' as f;
 
-
   .falcon-page {
     p {
       margin:2px auto;
@@ -117,7 +116,8 @@ main {
     }
     .second-falcon-carousel {
       img {
-        height: 625px;
+        height: auto;
+        max-height: 625px;
       }
 
       .carousel-text {
@@ -140,4 +140,3 @@ main {
     }
   }
 }
-
