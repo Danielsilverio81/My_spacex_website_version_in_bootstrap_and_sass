@@ -1,0 +1,98 @@
+@use './../forwardUse' as f;
+
+.page-spaceFlight-shadowNav {
+  a {
+    &:hover {
+      text-shadow: 2px 2px 2px f.$hoverLinks;
+    }
+  }
+}
+
+.container-spaceF00 {
+  @include f.contentBox(100%, 640px, url(./../assets/images/humanFlight/01.jpg), cover, no-repeat);
+  background-position: center;
+}
+
+.container-spaceF01 {
+  @include f.contentBox(100%, 640px, url(./../assets/images/humanFlight/02.jpg), cover, no-repeat);
+  background-position: center;
+
+  .container-content-SpaceF {
+    margin-left: 720px;
+  }
+}
+
+.container-spaceF02 {
+  @include f.contentBox(100%, 640px, url(./../assets/images/humanFlight/03.jpg), cover, no-repeat);
+  background-position: center;
+
+  .container-content-SpaceF {
+    margin-left: 70px;
+  }
+}
+
+.container-spaceF03 {
+  @include f.contentBox(100%, 640px, url(./../assets/images/humanFlight/04.jpg), cover, no-repeat);
+  background-position: center;
+
+  .container-content-SpaceF {
+    margin-left: 720px;
+  }
+}
+
+.container-spaceF04 {
+  @include f.contentBox(100%, 640px, url(./../assets/images/humanFlight/05.jpg), cover, no-repeat);
+  background-position: center;
+
+  .container-content-SpaceF {
+    margin-left: 70px;
+  }
+}
+
+.container-spaceF00 {
+  .space-flight {
+    padding-left: 36px;
+    h1 {
+      margin-top: 45px;
+      font-size: 120px;
+    }
+
+    p {
+      font-size: 30px;
+      margin-top: 20px;
+      margin-bottom: 50px;
+      font-weight: 300;
+    }
+  } 
+}
+
+main {
+  .text-span {
+    padding: 10px;
+    height: 90px;
+    width: 100%;
+    background-color: black;
+
+    p {
+      margin: 0 auto;
+      font-size: 1.2em;
+      font-weight: 400;
+      max-width: 750px;
+    }
+  }
+
+  .container-content-SpaceF {
+
+    h2 {
+      font-size: 60px;
+      font-weight: bold;
+    }
+
+    .btn-knowMore {
+      &:hover {
+        background-color: f.$fontColor;
+      }
+    }
+  }
+}
+

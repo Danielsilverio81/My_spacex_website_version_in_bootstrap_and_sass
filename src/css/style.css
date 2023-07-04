@@ -1,1 +1,361 @@
-*{margin:0;padding:0;box-sizing:border-box}body,html{transition-duration:.7s;width:100%;min-height:100vh;color:#fff}main{display:flex;flex-direction:column;flex:1 0 auto}.navbar-toggler{border:1px solid #fff;background-color:#a79b9b;padding:2px}.navbar-toggler:active{border:3px solid #fff}.backg-01{width:100%;min-height:100vh;background-image:url(./../assets/images/home/01.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}.backg-02{width:100%;min-height:100vh;background-image:url(./../assets/images/home/03.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}.backg-03{width:100%;min-height:100vh;background-image:url(./../assets/images/home/02.gif);background-size:cover;background-repeat:no-repeat;background-position:center}.backg-04{width:100%;min-height:100vh;background-image:url(./../assets/images/home/04.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}.container-content .container-move{margin-right:104px}.container-content .navbar .logo{padding-right:22px;width:265px;height:39px}.container-content .navbar .nav-link{color:#fff;font-size:.75em;font-weight:bold}.container-content .arrowDown{max-width:100px}.information-top{padding-top:202px}.information-top p{width:100%;max-width:620px}.information-top .btn-knowMore{font-size:1em;padding:15px 35px;border-radius:5px;border:3px solid #fff}.information-top .home-page{margin-left:70px}.btn-knowMore:hover{background-color:#9b9999}.btn-knowMore:active{box-shadow:3px 3px 3px #a9a9a9}footer{background-color:#000;height:75px}footer .container-flex{display:flex;align-items:center;justify-content:center;gap:14px}footer .container-flex p{margin-top:16px;color:#555252}.falcon-page p{margin:2px auto}td{background-color:rgba(0,0,0,0)}.bg-falcon01{width:100%;min-height:100vh;background-image:url(./../assets/images/falcon9/01.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}.bg-falcon02{width:100%;min-height:100vh;background-image:url(./../assets/images/falcon9/02.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}.bg-falcon03{width:100%;min-height:100vh;background-image:url(./../assets/images/falcon9/08.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}#width-container{width:100%;max-width:500px;margin-left:14%;padding-top:15%}#width-container table{width:100%;max-width:480px}#width-container table td{color:#fff;background-color:rgba(0,0,0,0)}.container-content .content-move{text-shadow:2px 2px 2px #555252;padding-left:90px}.container-content .content-move strong{color:#555252}main section .falcon-details{background-color:#000;height:210px;font-weight:bold}main section .falcon-details .numb{font-size:5.2em}main section .desc{font-size:1.3em;line-height:2.4em;padding-top:110px;padding-right:490px;padding-left:50px}main .falcon-carousel{width:100%}main .falcon-carousel #width-container .text{margin-top:5px;text-shadow:2px 2px 2px #000}main .falcon-carousel #width-container .text-aletas{font-size:1.2em}main .falcon-carousel .container00{width:100%;min-height:100vh;background-image:url(./../assets/images/falcon9/03.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}main .falcon-carousel .container01{width:100%;min-height:100vh;background-image:url(./../assets/images/falcon9/04.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}main .falcon-carousel .container02{width:100%;min-height:100vh;background-image:url(./../assets/images/falcon9/05.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}main .falcon-carousel .container03{width:100%;min-height:100vh;background-image:url(./../assets/images/falcon9/06.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}main .falcon-carousel .container04{width:100%;min-height:100vh;background-image:url(./../assets/images/falcon9/07.jpg);background-size:cover;background-repeat:no-repeat;background-position:center}main .second-falcon-carousel img{height:auto;max-height:625px}main .second-falcon-carousel .carousel-text{background-color:#000;text-align:center;margin-top:0;margin-bottom:1rem}.btns-download-desc{height:627px;background-color:#000;padding-top:240px}.btns-download-desc button:active{box-shadow:3px 3px 3px #a9a9a9}/*# sourceMappingURL=style.css.map */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body, html {
+  transition-duration: 0.7s;
+  width: 100%;
+  min-height: 100vh;
+  color: #FFFFFF;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  flex: 1 0 auto;
+}
+
+.navbar-toggler {
+  border: 1px solid #FFFFFF;
+  background-color: rgb(167, 155, 155);
+  padding: 2px;
+}
+.navbar-toggler:active {
+  border: 3px solid #FFFFFF;
+}
+
+.backg-01 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/home/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.backg-02 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/home/03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.backg-03 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/home/02.gif);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.backg-04 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/home/04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-content .container-move {
+  margin-right: 104px;
+}
+.container-content .navbar .logo {
+  padding-right: 22px;
+  width: 265px;
+  height: 39px;
+}
+.container-content .navbar .nav-link {
+  color: #FFFFFF;
+  font-size: 0.75em;
+  font-weight: bold;
+}
+.container-content .arrowDown {
+  max-width: 100px;
+}
+
+.information-top {
+  padding-top: 202px;
+}
+.information-top p {
+  width: 100%;
+  max-width: 620px;
+}
+.information-top .btn-knowMore {
+  font-size: 1em;
+  padding: 15px 35px;
+  border-radius: 5px;
+  border: 3px solid white;
+}
+
+.information-top .home-page {
+  margin-left: 70px;
+}
+
+.btn-knowMore:hover {
+  background-color: #9b9999;
+}
+
+.btn-knowMore:active {
+  box-shadow: 3px 3px 3px darkgray;
+}
+
+footer {
+  background-color: black;
+  height: 75px;
+}
+footer .container-flex {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 14px;
+}
+footer .container-flex p {
+  margin-top: 16px;
+  color: #555252;
+}
+
+.falcon-page p {
+  margin: 2px auto;
+}
+
+td {
+  background-color: transparent;
+}
+
+.bg-falcon01 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/falcon9/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-falcon02 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/falcon9/02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.bg-falcon03 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/falcon9/08.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+#width-container {
+  width: 100%;
+  max-width: 500px;
+  margin-left: 14%;
+  padding-top: 15%;
+}
+#width-container table {
+  width: 100%;
+  max-width: 480px;
+}
+#width-container table td {
+  color: #FFFFFF;
+  background-color: transparent;
+}
+
+.container-content .content-move {
+  text-shadow: 2px 2px 2px #555252;
+  padding-left: 90px;
+}
+.container-content .content-move strong {
+  color: #555252;
+}
+
+main section .falcon-details {
+  background-color: #000000;
+  height: 210px;
+  font-weight: bold;
+}
+main section .falcon-details .numb {
+  font-size: 5.2em;
+}
+main section .desc {
+  font-size: 1.3em;
+  line-height: 2.4em;
+  padding-top: 110px;
+  padding-right: 490px;
+  padding-left: 50px;
+}
+main .falcon-carousel {
+  width: 100%;
+}
+main .falcon-carousel #width-container .text {
+  margin-top: 5px;
+  text-shadow: 2px 2px 2px black;
+}
+main .falcon-carousel #width-container .text-aletas {
+  font-size: 1.2em;
+}
+main .falcon-carousel .container00 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/falcon9/03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .falcon-carousel .container01 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/falcon9/04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .falcon-carousel .container02 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/falcon9/05.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .falcon-carousel .container03 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/falcon9/06.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .falcon-carousel .container04 {
+  width: 100%;
+  min-height: 100vh;
+  background-image: url(./../assets/images/falcon9/07.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+main .second-falcon-carousel img {
+  height: auto;
+  max-height: 625px;
+}
+main .second-falcon-carousel .carousel-text {
+  background-color: black;
+  text-align: center;
+  margin-top: 0;
+  margin-bottom: 1rem;
+}
+
+.btns-download-desc {
+  height: 627px;
+  background-color: black;
+  padding-top: 240px;
+}
+.btns-download-desc button:active {
+  box-shadow: 3px 3px 3px darkgray;
+}
+
+.page-spaceFlight-shadowNav a:hover {
+  text-shadow: 2px 2px 2px #9b9999;
+}
+
+.container-spaceF00 {
+  width: 100%;
+  min-height: 640px;
+  background-image: url(./../assets/images/humanFlight/01.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.container-spaceF01 {
+  width: 100%;
+  min-height: 640px;
+  background-image: url(./../assets/images/humanFlight/02.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-spaceF01 .container-content-SpaceF {
+  margin-left: 720px;
+}
+
+.container-spaceF02 {
+  width: 100%;
+  min-height: 640px;
+  background-image: url(./../assets/images/humanFlight/03.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-spaceF02 .container-content-SpaceF {
+  margin-left: 70px;
+}
+
+.container-spaceF03 {
+  width: 100%;
+  min-height: 640px;
+  background-image: url(./../assets/images/humanFlight/04.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-spaceF03 .container-content-SpaceF {
+  margin-left: 720px;
+}
+
+.container-spaceF04 {
+  width: 100%;
+  min-height: 640px;
+  background-image: url(./../assets/images/humanFlight/05.jpg);
+  background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.container-spaceF04 .container-content-SpaceF {
+  margin-left: 70px;
+}
+
+.container-spaceF00 .space-flight {
+  padding-left: 36px;
+}
+.container-spaceF00 .space-flight h1 {
+  margin-top: 45px;
+  font-size: 120px;
+}
+.container-spaceF00 .space-flight p {
+  font-size: 30px;
+  margin-top: 20px;
+  margin-bottom: 50px;
+  font-weight: 300;
+}
+
+main .text-span {
+  padding: 10px;
+  height: 90px;
+  width: 100%;
+  background-color: black;
+}
+main .text-span p {
+  margin: 0 auto;
+  font-size: 1.2em;
+  font-weight: 400;
+  max-width: 750px;
+}
+main .container-content-SpaceF h2 {
+  font-size: 60px;
+  font-weight: bold;
+}
+main .container-content-SpaceF .btn-knowMore:hover {
+  background-color: #FFFFFF;
+}
+
+/*# sourceMappingURL=style.css.map */
