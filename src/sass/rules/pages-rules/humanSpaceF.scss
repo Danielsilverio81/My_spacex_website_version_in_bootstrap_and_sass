@@ -20,7 +20,7 @@
   background-position: center;
 
   .container-content-SpaceF {
-    padding-left: 680px;
+    margin-left: 700px;
   }
 }
 
@@ -29,7 +29,7 @@
   background-position: center;
 
   .container-content-SpaceF {
-    padding-left: 70px;
+    margin-left: 70px;
   }
 }
 
@@ -38,7 +38,7 @@
   background-position: center;
 
   .container-content-SpaceF {
-    padding-left: 680px;
+    margin-left: 700px;
   }
 }
 
@@ -47,7 +47,7 @@
   background-position: center;
 
   .container-content-SpaceF {
-    padding-left: 70px;
+    margin-left: 70px;
   }
 }
 
@@ -70,8 +70,8 @@
 
 main {
   .text-span {
-    padding: 10px;
-    height: 90px;
+    padding: 5px;
+    height: 95px;
     width: 100%;
     @include f.dFlex(flex, center, center);
     background-color: black;
