@@ -4,6 +4,10 @@ _______
 
 ![alt](https://img.shields.io/badge/MIT-License-green)
 
+_____
+
+<img src="./src/assets/images/mySpaceX-readme.gif" width="650px" height="450px" alt="image project">
+
 ## About the project:
 
 The idea for this project came from an exercise I performed on the One Bit Code platform, where I had to copy a design provided on a SpaceX page in Bootstrap, as usual I accepted the challenge, this project is the result
