@@ -43,18 +43,38 @@
 
 @media (max-width: 1060px) {
   .container-spaceF00 {
-    height: 350px;
+    height: 370px;
   }
-  .container-spaceF01, .container-spaceF02, .container-spaceF03,
-  .container-spaceF04 {
+  .container-spaceF01 {
     .container-content-SpaceF {
-      margin-left: 17px;
+      padding-left: 15px;
     }
   }
-}
+
+  .container-spaceF02 {
+    .container-content-SpaceF {
+      padding-left: 15px;
+    }
+  }
+
+  .container-spaceF03 {
+    .container-content-SpaceF {
+      padding-left: 15px;
+    }
+  }
+
+  .container-spaceF04 {
+    .container-content-SpaceF {
+      padding-left: 15px;
+    }
+  }
+} 
 
 @media (max-width:940px) {
   .arrowD-container {display: none;}
+  .container-spaceF00 {
+    min-height: 250px;
+  }
   .container-spaceF00 .space-flight h1 {
     margin-top: 10px;
     font-size: 2em;
@@ -63,6 +83,6 @@
     margin: 2px;
   }
   main .text-span p {
-    font-size: 1em;
+    font-size: 0.9em;
   }
 } 
