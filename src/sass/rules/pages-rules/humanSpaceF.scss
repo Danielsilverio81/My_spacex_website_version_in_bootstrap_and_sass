@@ -1,6 +1,7 @@
 /*style Human Space F page*/
 @use './../forwardUse' as f;
 
+
 .page-spaceFlight-shadowNav {
   a {
     &:hover {
@@ -19,7 +20,7 @@
   background-position: center;
 
   .container-content-SpaceF {
-    margin-left: 720px;
+    padding-left: 680px;
   }
 }
 
@@ -28,7 +29,7 @@
   background-position: center;
 
   .container-content-SpaceF {
-    margin-left: 70px;
+    padding-left: 70px;
   }
 }
 
@@ -37,7 +38,7 @@
   background-position: center;
 
   .container-content-SpaceF {
-    margin-left: 720px;
+    padding-left: 680px;
   }
 }
 
@@ -46,7 +47,7 @@
   background-position: center;
 
   .container-content-SpaceF {
-    margin-left: 70px;
+    padding-left: 70px;
   }
 }
 
@@ -72,10 +73,10 @@ main {
     padding: 10px;
     height: 90px;
     width: 100%;
+    @include f.dFlex(flex, center, center);
     background-color: black;
 
     p {
-      margin: 0 auto;
       font-size: 1.2em;
       font-weight: 400;
       max-width: 750px;

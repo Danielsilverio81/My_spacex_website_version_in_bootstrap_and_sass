@@ -2,16 +2,9 @@
 * {@include f.reset(0, 0, border-box)}
 
 body, html {
-  transition-duration: 0.7s;
   width: 100%;
   min-height: 100vh;
   color: f.$fontColor;
-}
-
-main {
-  display: flex;
-  flex-direction: column;
-  @include f.flexProperty;
 }
 
 
